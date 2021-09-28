@@ -80,7 +80,7 @@ namespace Chessboard_Cover
                 {
                     for (int j = 0; j < m_board[i].Count; j++)
                     {
-                        Console.Write(m_board[i][j] == 0 ? "# " : m_board[i][j] + " ");
+                        Console.Write("{0, 3}", m_board[i][j] == 0 ? "#" : m_board[i][j]);
                     }
                     Console.WriteLine();
                 }

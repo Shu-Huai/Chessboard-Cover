@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <ApplicationIcon>棋盘覆盖可视化.ico</ApplicationIcon>
   </PropertyGroup>
 
 </Project>
